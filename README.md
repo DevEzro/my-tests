@@ -1,6 +1,6 @@
-### COMO USAR GITHUB ACTIONS
-# - Crear directorio 
+# COMO USAR GITHUB ACTIONS
+### - Crear directorio 
 'raiz/github/workflows/helloworld.yml'
 
-# - Contenido del directorio
+### - Contenido del directorio
 Ver fichero para entender la syntaxis
