@@ -2,5 +2,5 @@
 ### - Crear directorio 
 'raiz/github/workflows/helloworld.yml'
 
-### - Contenido del directorio
+### - Contenido del fichero 'helloworld.yml'
 Ver fichero para entender la syntaxis
