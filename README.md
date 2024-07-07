@@ -5,7 +5,8 @@
 `raiz/.github/workflows/helloworld.yml
 
 - Contenido del fichero 'helloworld.yml'
-> on: #Especifica el evento que activará el workflow
+```
+ on: #Especifica el evento que activará el workflow
   push: #El workflow se activará cuando se haga un push al repo
     branches: #Define en que ramas se activará el workflow
       - main #En este caso es la rama main
@@ -20,6 +21,7 @@ jobs: #Definde los trabajos que se van a realizar
     steps:
       - run: echo "David"
       - run: echo "Cierre"
+```
 
 ### - PYTEST_API
 - Fichero de python con instrucciones para probar la api de la URL todo.pixegami.io
