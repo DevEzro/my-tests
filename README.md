@@ -16,6 +16,7 @@ jobs: #Definde los trabajos que se van a realizar
     runs-on: ubuntu-latest #Indica en que MV se va a ejecutar la tarea
     steps: #Define los pasos que va a realizar el trabajo
       - run: echo "Hello world!" #El trabajo en cuestión: mostrar por pantalla "Hello world!"
+
   #Ejemplo de otro trabajo similar al anterior
   print_nombre:
     runs-on: ubuntu-latest
