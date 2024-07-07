@@ -29,3 +29,8 @@ jobs: #Definde los trabajos que se van a realizar
 - Fichero de python con instrucciones para probar la api de la URL todo.pixegami.io
 - Pytest integrado para realizar pruebas
 - Explicado línea por línea
+
+### - PYTEST
+- Una clase main.py y otra test_main.py con operaciones
+- La clase test prueba algunos enteros como parámetro para el test, donde uno de ellos dará error al realizar la prueba
+- De prueba para entender como funciona pytest
