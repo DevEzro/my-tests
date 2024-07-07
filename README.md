@@ -5,7 +5,7 @@
 `raiz/.github/workflows/helloworld.yml
 
 - Contenido del fichero 'helloworld.yml'
-```
+```python
  on: #Especifica el evento que activará el workflow
   push: #El workflow se activará cuando se haga un push al repo
     branches: #Define en que ramas se activará el workflow
