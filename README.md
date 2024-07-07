@@ -6,7 +6,7 @@
 
 -------------------------------------------------------
 ### Creditos y enlace al video: 
-https://www.youtube.com/embed/7dgQRVqF1N0?si=SZwkoGOdbvGPy-2k
+[https://www.youtube.com/embed/7dgQRVqF1N0?si=SZwkoGOdbvGPy-2k](https://youtu.be/7dgQRVqF1N0?feature=shared)
 
 ### URL para la prueba: 
 https://todo.pixegami.io/docs#/
