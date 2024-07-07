@@ -2,7 +2,7 @@
 ## RAMAS
 ### - GITHUB_ACTIONS
 - La ruta para que se realicen los jobs del yml por GitHub Actions
-`raiz/.github/workflows/helloworld.yml
+> raiz/.github/workflows/helloworld.yml
 
 - Contenido del fichero 'helloworld.yml'
 ```yml
