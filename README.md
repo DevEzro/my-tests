@@ -30,6 +30,12 @@ jobs: #Definde los trabajos que se van a realizar
 - Pytest integrado para realizar pruebas
 - Explicado línea por línea
 
+### - PYTEST_FASTAPI
+- Igual que PYTEST_API pero usando FastApi
+
+### - PYTEST_FASTAPI_CRUD
+- Igual que PYTEST_FASTAPI pero implementando operaciones CRUD de usuarios
+
 ### - PYTEST
 - Una clase main.py y otra test_main.py con operaciones
 - La clase test prueba algunos enteros como parámetro para el test, donde uno de ellos dará error al realizar la prueba
