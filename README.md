@@ -4,7 +4,7 @@
 - The path for running the jobs of the yml file using GitHub Actions
 > root/.github/workflows/helloworld.yml
 - Contents of the 'helloworld.yml' file
-'''
+```
 on: #Specifies the event that will trigger the workflow
   push: #The workflow will be triggered when a push is made to the repo
     branches: #Defines on which branches the workflow will be triggered
@@ -22,7 +22,7 @@ jobs: #Defines the jobs that will be executed
     steps:
       - run: echo "David"
       - run: echo "Closing"
-'''
+```
 ### - PYTEST_API
 - Python file with instructions to test the API at the URL todo.pixegami.io
 - Integrated Pytest for running tests
