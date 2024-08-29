@@ -1,39 +1,41 @@
-# TEST REPOSITORY
-## BRANCHES
+# REPOSITORIO DE PRUEBAS
+## RAMAS
 ### - GITHUB_ACTIONS
-- The path for running the jobs of the yml file using GitHub Actions
-> root/.github/workflows/helloworld.yml
-- Contents of the 'helloworld.yml' file
- on: #Specifies the event that will trigger the workflow
-  push: #The workflow will be triggered when a push is made to the repo
-    branches: #Defines on which branches the workflow will be triggered
-      - main #In this case, the main branch
+- La ruta para que se realicen los jobs del yml por GitHub Actions
+> raiz/.github/workflows/helloworld.yml
+- Contenido del fichero 'helloworld.yml'
+```yml
+ on: #Especifica el evento que activará el workflow
+  push: #El workflow se activará cuando se haga un push al repo
+    branches: #Define en que ramas se activará el workflow
+      - main #En este caso es la rama main
 
-jobs: #Defines the jobs that will be executed
-  print_hello: #Name of the first job
-    runs-on: ubuntu-latest #Specifies the VM on which the task will run
-    steps: #Defines the steps the job will execute
-      - run: echo "Hello world!" #The specific job: display "Hello world!" on the screen
+jobs: #Definde los trabajos que se van a realizar
+  print_hello: #Nombre del primer trabajo
+    runs-on: ubuntu-latest #Indica en que MV se va a ejecutar la tarea
+    steps: #Define los pasos que va a realizar el trabajo
+      - run: echo "Hello world!" #El trabajo en cuestión: mostrar por pantalla "Hello world!"
 
-  #Example of another job similar to the previous one
-  print_name:
+  #Ejemplo de otro trabajo similar al anterior
+  print_nombre:
     runs-on: ubuntu-latest
     steps:
       - run: echo "David"
-      - run: echo "Closing"
+      - run: echo "Cierre"
+```
 
 ### - PYTEST_API
-- Python file with instructions to test the API at the URL todo.pixegami.io
-- Integrated Pytest for running tests
-- Explained line by line
+- Fichero de python con instrucciones para probar la api de la URL todo.pixegami.io
+- Pytest integrado para realizar pruebas
+- Explicado línea por línea
 
 ### - PYTEST_FASTAPI_CRUD
-- Same as PYTEST_FASTAPI but implementing CRUD operations for users
+- Igual que PYTEST_FASTAPI pero implementando operaciones CRUD de usuarios
 
 ### - PYTEST_FASTAPI
-- Same as PYTEST_API but using FastAPI
+- Igual que PYTEST_API pero usando FastApi
 
 ### - PYTEST
-- A main.py class and a test_main.py class with operations
-- The test_main.py class tests some integers as parameters for the test, where one of them will cause an error during the test
-- Serves as a test to understand how pytest works
+- Una clase main.py y otra test_main.py con operaciones
+- La clase test prueba algunos enteros como parámetro para el test, donde uno de ellos dará error al realizar la prueba
+- De prueba para entender como funciona pytest
