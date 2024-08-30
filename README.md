@@ -23,6 +23,12 @@ jobs: #Defines the jobs that will be executed
       - run: echo "David"
       - run: echo "Closing"
 ```
+
+### - PYTEST
+- A main.py class and a test_main.py class with operations
+- The test_main.py class tests some integers as parameters for the test, where one of them will cause an error during the test
+- Serves as a test to understand how pytest works
+
 ### - PYTEST_API
 - Python file with instructions to test the API at the URL todo.pixegami.io
 - Integrated Pytest for running tests
@@ -33,8 +39,3 @@ jobs: #Defines the jobs that will be executed
 
 ### - PYTEST_FASTAPI_CRUD
 - Same as PYTEST_FASTAPI but implementing CRUD operations for users
-
-### - PYTEST
-- A main.py class and a test_main.py class with operations
-- The test_main.py class tests some integers as parameters for the test, where one of them will cause an error during the test
-- Serves as a test to understand how pytest works
