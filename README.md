@@ -39,3 +39,6 @@ jobs: #Defines the jobs that will be executed
 
 ### - PYTEST_FASTAPI_CRUD
 - Same as PYTEST_FASTAPI but implementing CRUD operations for users
+
+### - SELENIUM
+- A python file with a easy example to understand how Selenium Web Driver works
