@@ -28,11 +28,11 @@ jobs: #Defines the jobs that will be executed
 - Integrated Pytest for running tests
 - Explained line by line
 
-### - PYTEST_FASTAPI_CRUD
-- Same as PYTEST_FASTAPI but implementing CRUD operations for users
-
 ### - PYTEST_FASTAPI
 - Same as PYTEST_API but using FastAPI
+
+### - PYTEST_FASTAPI_CRUD
+- Same as PYTEST_FASTAPI but implementing CRUD operations for users
 
 ### - PYTEST
 - A main.py class and a test_main.py class with operations
