@@ -17,6 +17,9 @@ from colorama import init, Fore
 #Inicializa Chrome
 driver = webdriver.Chrome()
 
+#Maximizar ventana
+driver.maximize.window()
+
 #Abre una página web
 driver.get("https://www.google.com/")
 
