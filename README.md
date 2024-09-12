@@ -8,7 +8,9 @@
 ![image](https://github.com/user-attachments/assets/7958d34f-f98e-49c5-bb59-129709889a75)
 
 ## SETUP
-- Instalar TestCafé
-`npm install testcafe --save-dev`
-- Ejecutar pruebas
-`npx testcafe chrome </ruta/al/fichero.js>`
+
+- Inicializar testcafe en la carpeta `npm init` -> Crea package.json
+- Instalar TestCafé `npm install testcafe --save-dev` -> Crea la carpeta de modulos 'node_modules'
+- Ejecutar pruebas `npx testcafe edge </ruta/al/fichero.js>`
+
+### SE PUEDE USAR CUALQUIER NAVEGADOR. USO EDGE YA QUE CON CHROME ME DA ERROR
