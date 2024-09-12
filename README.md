@@ -1,9 +1,9 @@
 # TEST REPOSITORY
-## BRANCHES
+## RAMAS
 ### - GITHUB_ACTIONS
-- The path for running the jobs of the yml file using GitHub Actions
+- La ruta para ejecutar los jobs del fichero yml usando GitHub Actions
 > root/.github/workflows/helloworld.yml
-- Contents of the 'helloworld.yml' file
+- Contenido del archivo 'helloworld.yml'
 ```
 on: #Specifies the event that will trigger the workflow
   push: #The workflow will be triggered when a push is made to the repo
@@ -25,20 +25,20 @@ jobs: #Defines the jobs that will be executed
 ```
 
 ### - PYTEST
-- A main.py class and a test_main.py class with operations
-- The test_main.py class tests some integers as parameters for the test, where one of them will cause an error during the test
-- Serves as a test to understand how pytest works
+- Una clase main.py y una clase test_main.py con operaciones
+- La clase test_main.py prueba algunos enteros como parametros para la prueba, doinde uno de ellos provocará un error durante la el prueba
+- Sirve como prueba para entender como funcoina pytest
 
 ### - PYTEST_API
-- Python file with instructions to test the API at the URL todo.pixegami.io
-- Integrated Pytest for running tests
-- Explained line by line
+- Archivo de Python con instrucciones para probar la API de la URL todo.pixegami.io
+- Pytest integrado para ejecutar pruebas
+- Explicado línea por línea
 
 ### - PYTEST_FASTAPI
-- Same as PYTEST_API but using FastAPI
+- Lo mismo que en PYTEST_API pero usando FastAPI
 
 ### - PYTEST_FASTAPI_CRUD
-- Same as PYTEST_FASTAPI but implementing CRUD operations for users
+- Lo mismo que en PYTEST_FASTAPI pero implementando operaciones CRUD para usuarios
 
 ### - SELENIUM
-- A python file with a easy example to understand how Selenium Web Driver works
+- Un fichero Python con un ejemplo sencillo para entender como funciona Selenium Web Driver
