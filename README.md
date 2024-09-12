@@ -17,5 +17,4 @@
 
 - Ejecutar pruebas `npx testcafe edge </ruta/al/fichero.js>`
 
-
 ### SE PUEDE USAR CUALQUIER NAVEGADOR. USO EDGE YA QUE CON CHROME ME DA ERROR
