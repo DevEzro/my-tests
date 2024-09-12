@@ -5,23 +5,23 @@
 > root/.github/workflows/helloworld.yml
 - Contenido del archivo 'helloworld.yml'
 ```
-on: #Specifies the event that will trigger the workflow
-  push: #The workflow will be triggered when a push is made to the repo
-    branches: #Defines on which branches the workflow will be triggered
-      - main #In this case, the main branch
+on: #Especifica el evento que hará funcionar el flujo de trabajo
+  push: #El flujo de trabajo se lanzará cuando se haga un push en el repo
+    branches: #Define en que rama se lanzará el flujo de trabajo
+      - main #Em este caso, la rama main
 
-jobs: #Defines the jobs that will be executed
-  print_hello: #Name of the first job
-    runs-on: ubuntu-latest #Specifies the VM on which the task will run
-    steps: #Defines the steps the job will execute
-      - run: echo "Hello world!" #The specific job: display "Hello world!" on the screen
+jobs: #Define los jobs que se ejecutarán
+  print_hello: #Nombre del primer job
+    runs-on: ubuntu-latest #Especifica la MV en la que se ejecutará la tarea
+    steps: #Define los pasos que el job ejecutará
+      - run: echo "Hello world!" #El trabajo en cuestión: muestra por pantalla "Hola Mundo!"
 
-  #Example of another job similar to the previous one
+  #Ejemplo de otro job similar al anterior
   print_name:
     runs-on: ubuntu-latest
     steps:
       - run: echo "David"
-      - run: echo "Closing"
+      - run: echo "Cerrando"
 ```
 
 ### - PYTEST
