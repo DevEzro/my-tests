@@ -41,7 +41,7 @@ jobs: #Define los jobs que se ejecutarán
 - Lo mismo que en PYTEST_FASTAPI pero implementando operaciones CRUD para usuarios
 
 ### - SELENIUM
-- Un fichero Python con un ejemplo sencillo para entender como funciona Selenium Web Driver
+- Un fichero Python con un ejemplo sencillo para entender como funciona la automatización web con Selenium Web Driver
 
 ### - TESTCAFE
 - Un fichero JS con un ejemplo sencillo para entender como funciona la automatización web con TestCafé
