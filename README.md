@@ -42,3 +42,6 @@ jobs: #Define los jobs que se ejecutarán
 
 ### - SELENIUM
 - Un fichero Python con un ejemplo sencillo para entender como funciona Selenium Web Driver
+
+### - TESTCAFE
+- Un fichero JS con un ejemplo sencillo para entender como funciona la automatización web con TestCafé
