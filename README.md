@@ -3,28 +3,9 @@
 ### - GITHUB_ACTIONS
 - La ruta para ejecutar los jobs del fichero yml usando GitHub Actions
 > root/.github/workflows/helloworld.yml
-- Contenido del archivo 'helloworld.yml'
-```
-on: #Especifica el evento que hará funcionar el flujo de trabajo
-  push: #El flujo de trabajo se lanzará cuando se haga un push en el repo
-    branches: #Define en que rama se lanzará el flujo de trabajo
-      - main #Em este caso, la rama main
 
-jobs: #Define los jobs que se ejecutarán
-  print_hello: #Nombre del primer job
-    runs-on: ubuntu-latest #Especifica la MV en la que se ejecutará la tarea
-    steps: #Define los pasos que el job ejecutará
-      - run: echo "Hello world!" #El trabajo en cuestión: muestra por pantalla "Hola Mundo!"
-
-  #Ejemplo de otro job similar al anterior
-  print_name:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "David"
-      - run: echo "Cerrando"
-```
 ### - JENKINS
-- En camino
+- Pipeline de ejemplo en formato Jenkinsfile para realizar tareas de CI/CD con Jenkins
 
 
 ## UNIT TESTS
