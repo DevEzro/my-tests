@@ -26,6 +26,7 @@ jobs: #Define los jobs que se ejecutarán
 ### - JENKINS
 - En camino
 
+
 ## UNIT TESTS
 ### - PYTEST
 - Una clase main.py y una clase test_main.py con operaciones
@@ -43,8 +44,8 @@ jobs: #Define los jobs que se ejecutarán
 ### - PYTEST_FASTAPI_CRUD
 - Lo mismo que en PYTEST_FASTAPI pero implementando operaciones CRUD para usuarios
 
-## WEB AUTOMATION
 
+## WEB AUTOMATION
 ### - SELENIUM
 - Un fichero Python con un ejemplo sencillo para entender como funciona la automatización web con Selenium Web Driver
 
