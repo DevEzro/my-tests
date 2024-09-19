@@ -1,0 +1,32 @@
+pipeline { // Se inicializa la pipeline
+    agent any // Se le indica que lo ejecute cualquier agente
+
+    stages { // Inicializa los escenarios
+        stage('Crear directorio') { // Escenario 1: Crear directorio
+            steps { // Pasos a realizar
+                echo 'Iniciando el pipeline...' // Mensaje por pantalla
+                sh 'mkdir -p /tmp/mi_directorio' // Crea un directorio en la carpeta tmp del contenedor
+            }
+        }
+
+        stage('Crear fichero dentro del directorio') { // Escenario 2: Crear fichero dentro del directorio
+            steps {
+                echo 'Ejecutando la tarea principal...'
+                sh 'touch /tmp/mi_directorio/archivo_ejemplo.txt' // Crea un fichero dentro del directorio creado
+            }
+        }
+
+        stage('Eliminar directorio') { // Escenario 3: Eliminar directorio
+            steps {
+                echo 'Limpiando el entorno...'
+                sh 'rm -rf /tmp/mi_directorio' // Elimina el directorio creado
+            }
+        }
+    }
+
+    post { // Ejecuciones possteriores a los escenarios
+        always { / Se ejecutará siempre
+            echo 'El pipeline ha finalizado.' // Mensaje
+        }
+    }
+}
