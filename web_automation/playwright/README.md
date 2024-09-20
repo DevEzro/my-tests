@@ -32,3 +32,4 @@ Running 1 test using 1 worker
 # EJECUCCIÓN
 - Ejecuta todas las pruebas dentro del directorio pruebas (siempre que estemos en él): `npx playwright test`
 - Ejecuta un fichero individualmente: `npx playwright test .\login.spec.js`
+- Para visualizar los pasos de playwright sobre el navegador, además de añadir tiempos de espera (>ver ejemplo login.spec.js): `npx playwright test login.spec.js --headed`
