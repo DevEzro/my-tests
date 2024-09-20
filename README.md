@@ -35,3 +35,6 @@
 
 ### - NIGHTWATCH
 - Un fichero JS con un ejemplo sencillo para entender como funciona la automatización web con Nightwatch
+
+### PLAYWRIGHT
+- Un fichero JS con un ejemplo sencillo para entender como funciona la automatización web con Playwatch
