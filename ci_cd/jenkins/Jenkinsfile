@@ -25,7 +25,7 @@ pipeline { // Se inicializa la pipeline
     }
 
     post { // Ejecuciones possteriores a los escenarios
-        always { / Se ejecutará siempre
+        always { // Se ejecutará siempre
             echo 'El pipeline ha finalizado.' // Mensaje
         }
     }
