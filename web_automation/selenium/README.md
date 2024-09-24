@@ -13,4 +13,5 @@
 
 # EJECUCCIÓN
 - `python3 <ruta/al/fichero/py>`
+- 
 ![image](https://github.com/user-attachments/assets/57305c6a-acf1-4e17-9322-f755ea11c9fc)
