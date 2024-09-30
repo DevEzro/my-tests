@@ -38,3 +38,6 @@
 
 ### - PLAYWRIGHT
 - Un fichero JS con un ejemplo sencillo para entender como funciona la automatización web con Playwatch
+
+### - CYPRESS
+- En progreso...
