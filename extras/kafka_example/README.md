@@ -44,7 +44,7 @@ Si no funciona usar `python` en vez de `python3`
 - Añadir la ruta de instalación a la variable de entorno PATH
 - Comprobar que se accede a java: `java --version`
 
-- Descargar kafka desde la página oficial
+- Descargar kafka desde la [página oficial](https://kafka.apache.org/downloads)
 > [!NOTE]
 Para evitar errores, descomprimir kafka en `C:\`
 
