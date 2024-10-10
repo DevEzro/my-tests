@@ -12,16 +12,13 @@
 - `cd kafka_2.13-3.8.0`
 
 ### Iniciar Zookeeper
-- Linux: `bin/zookeeper-server-start.sh config/zookeeper.properties`
-- Windows: `.\bin\windows\zookeeper-server-start.bat config/zookeeper.properties`
+- `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
 ### Iniciar Kafka
-- Linux: `bin/kafka-server-start.sh config/server.properties`
-- Windows: `.\bin\windows\kafka-server-start.bat config/zookeeper.properties`
-- 
+- `bin/kafka-server-start.sh config/server.properties`
+
 ### Crear tópico
-- Linux: `bin/kafka-topics.sh --create --topic logs --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
-- Wnidows: `.\bin\windows\kafka-topics.bat --create --topic logs --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
+- `bin/kafka-topics.sh --create --topic logs --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
 
 ### Uso de confluent-kafka
 - `source ruta/a/entorno/virtual`
