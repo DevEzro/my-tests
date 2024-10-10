@@ -27,7 +27,8 @@
 - `source ruta/a/entorno/virtual`
 - `pip install confluent kafka`
 
-> [!NOTE] Los códigos copiarlos y pegarlos
+> [!NOTE]
+Los códigos copiarlos y pegarlos
 
 ### EJECUCIÓN
 - `python3 productor.py`
