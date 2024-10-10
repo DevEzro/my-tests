@@ -32,4 +32,4 @@
 ### EJECUCIÓN
 - `python3 productor.py`
 - `python3 consumidor.py`
->[!NOTE] Si no funciona usar `python` en vez de `python3`
+[!NOTE] Si no funciona usar `python` en vez de `python3`
