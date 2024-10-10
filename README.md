@@ -41,3 +41,7 @@
 
 ### - CYPRESS
 - En progreso...
+
+
+## EXTRAS
+- Pruebas sueltas con otras funcionalidades y códigos sueltos
