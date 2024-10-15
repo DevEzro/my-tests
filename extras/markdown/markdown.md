@@ -48,7 +48,7 @@
 | DATO 1 FILA 2 | DATO 2 FILA 2|
 
 # SUBRAYADO 
-Tengo que subrayar <mark>esto</mark>
+Tengo que subrayar ==esto==
 
 # CÓDIGO
 ## LÍNEA DE CÓDIGO
