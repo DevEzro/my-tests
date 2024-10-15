@@ -50,6 +50,9 @@
 # SUBRAYADO (en desuso)
 Tengo que subrayar ==esto==
 
+# TACHADO
+~~Esto está tachado.~~ Esto no
+
 # TAREAS
 - [x] Tarea 1
 - [ ] Tarea 2
