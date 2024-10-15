@@ -5,30 +5,47 @@
 #### OTRO AÚN MÁS PEQUEÑO
 ##### SE PUEDE HACER ESTO TAMBIÉN?
 
-# NOTAS  
+# NEGRITA
+**Texto en negrita**
+
+# TEXTO EN CURSIVA
+*Texto en cursiva*
+
+# CITA
+> Esto es una cita
+
+## FORMATO DE CITAS
 > [!CAUTION]
-> Esto es una alerta de CUIDADO
+> Esto es una cita de CUIDADO
 
 > [!NOTE]
-> Esto es una NOTA
+> Esto es una cita de NOTA
 
 > [!WARNING]
-> Esto es una nota de ADVERTENCIA
+> Esto es una cita de ADVERTENCIA
 
 > [!TIP]
-> Esto es una nota de CONSEJO
+> Esto es una cita de CONSEJO
 
 > [!IMPORTANT]
-> Esto es una nota de IMPORTANTE
+> Esto es una cita de IMPORTANTE
 
 # LISTAS
+## LISTA ORDENADA
+1. Uno
+2. Dos
+3. Tres
+
+## LISTA DESORDENADA
 - LISTA
     - SUBLISTA
         - SUB SUBLISTA
 
 # CÓDIGO
+## LÍNEA DE CÓDIGO
 `Una linea de código/variable/función/comando`
 
+## BLOQUE DE CÓDIGO
 ```
 def bloque_de_código():
     print("Estás en un bloque de código")
@@ -37,8 +54,8 @@ bloque_de_código()
 ```
 
 # UTILIDADES
-- [Enlace a mi perfil de GitHub](https://github.com/DevEzro)
+## LINKS
+[Enlace a mi perfil de GitHub](https://github.com/DevEzro)
 
-- Imagen de perfil:
-
+## IMÁGENES
 ![Alt text](https://avatars.githubusercontent.com/u/92102267?v=4 "Imagen")
