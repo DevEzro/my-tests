@@ -37,6 +37,6 @@ bloque_de_código()
 ```
 
 # UTILIDADES
-[Enlace a mi perfil de GitHub]("https://github.com/DevEzro")
+![Enlace a mi perfil de GitHub]("https://github.com/DevEzro")
 
 ![imagen](https://github.com/user-attachments/assets/e001c6ee-526f-4e07-a8e7-5db985bef227)
