@@ -37,8 +37,6 @@ bloque_de_código()
 ```
 
 # UTILIDADES
-Añadir imagen y enlace
-
 - [Enlace a mi perfil de GitHub](https://github.com/DevEzro)
 
 - Imagen de perfil:
