@@ -1,4 +1,4 @@
-![92102267](https://github.com/user-attachments/assets/330bb947-8ccb-4fae-b790-2e5a9a69667b)# ENCABEZADOS
+# ENCABEZADOS
 # ESTO ES UN ENCABEZADO
 ## UNO MÁS PEQUEÑO
 ### UNO AÚN MÁS PEQUEÑO
@@ -38,5 +38,4 @@ bloque_de_código()
 
 # UTILIDADES
 [Enlace a mi perfil de GitHub]("https://github.com/DevEzro")
-![92102267](https://github.com/user-attachments/assets/e001c6ee-526f-4e07-a8e7-5db985bef227)
-
+![imagen](https://github.com/user-attachments/assets/e001c6ee-526f-4e07-a8e7-5db985bef227)
