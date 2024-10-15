@@ -38,3 +38,5 @@ bloque_de_código()
 
 # UTILIDADES
 Añadir imagen y enlace
+[Enlace a mi perfil de GitHub]('https://github.com/DevEzro')
+(https://avatars.githubusercontent.com/u/92102267?v=4 "Imagen")
