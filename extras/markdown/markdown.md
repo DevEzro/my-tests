@@ -48,7 +48,7 @@
 | DATO 1 FILA 2 | DATO 2 FILA 2|
 
 # SUBRAYADO 
-I need to highlight these ==very important words==.
+Tengo que subrayar <mark>esto</mark>
 
 # CÓDIGO
 ## LÍNEA DE CÓDIGO
