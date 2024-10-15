@@ -9,14 +9,19 @@ Cambia la extensión .txt a .md
 
 # NOTAS  
 > [!CAUTION]
+> Esto es una alerta de CUIDADO
 
 > [!NOTE]
+> Esto es una NOTA
 
 > [!WARNING]
+> Esto es una nota de ADVERTENCIA
 
 > [!TIP]
+> Esto es una nota de CONSEJO
 
 > [!IMPORTANT]
+> Esto es una nota de IMPORTANTE
 
 # LISTAS
 - LISTA
