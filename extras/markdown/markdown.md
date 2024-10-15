@@ -47,8 +47,13 @@
 | DATO 1 FILA 1 | DATO 2 FILA 1|
 | DATO 1 FILA 2 | DATO 2 FILA 2|
 
-# SUBRAYADO 
+# SUBRAYADO (en desuso)
 Tengo que subrayar ==esto==
+
+# TAREAS
+- [x] Tarea 1
+- [ ] Tarea 2
+- [ ] Tarea 3
 
 # CÓDIGO
 ## LÍNEA DE CÓDIGO
