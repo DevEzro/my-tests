@@ -1,5 +1,3 @@
-Cambia la extensión .txt a .md
-
 # ENCABEZADOS
 # ESTO ES UN ENCABEZADO
 ## UNO MÁS PEQUEÑO
