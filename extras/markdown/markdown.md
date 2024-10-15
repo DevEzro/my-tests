@@ -41,6 +41,15 @@
     - SUBLISTA
         - SUB SUBLISTA
 
+# TABLA
+| COLUMNA 1 | COLUMNA 2 |
+| --- | --- |
+| DATO 1 FILA 1 | DATO 2 FILA 1|
+| DATO 1 FILA 2 | DATO 2 FILA 2|
+
+# SUBRAYADO 
+Tengo que subrayar ==ESTO==
+
 # CÓDIGO
 ## LÍNEA DE CÓDIGO
 `Una linea de código/variable/función/comando`
