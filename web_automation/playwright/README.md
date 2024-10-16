@@ -1,4 +1,4 @@
-# SETUP
+# SET UP
 - `npx playwright install`
 - En la ruta del proyecto: `npm init playwright`
 - "Se necesitan instalar los siguientes paquetes (y)": `y`
