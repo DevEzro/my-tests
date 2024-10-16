@@ -12,7 +12,7 @@ body = input("Introduce un mensaje para el destinatario: ")
 channel.basic_publish(exchange='', routing_key='hello', body=body)
 
 # Mensaje a enviar impreso por pantalla
-print(f" [->] Enviando mensaje {body}")
+print(f" [->] Enviando mensaje '{body}'")
 
 # Cierra la conexión
 connection.close()
