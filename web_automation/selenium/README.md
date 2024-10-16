@@ -7,7 +7,8 @@
 > [!TIP]
 > Puede dar error al instalar chromedriver-py o selenium. Adjuntar al comando el parámetro `--break-system-package`
 
-> Nota: podemos ver los paquetes instalados con pip usando el comando `pip list`. En este ejemplo, con este comando se muestran los paquetes chromedriver-py y selenium instalados:
+> [!NOTE]
+> Podemos ver los paquetes instalados con pip usando el comando `pip list`. En este ejemplo, con este comando se muestran los paquetes chromedriver-py y selenium instalados:
 `pip list | grep -E "selenium|chromedriver"`
 ![image](https://github.com/user-attachments/assets/58d5dbe8-326b-4c7e-b579-15bb703dd37f)
 
