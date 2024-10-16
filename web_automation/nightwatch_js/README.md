@@ -1,4 +1,4 @@
-# SETUP 
+# SET UP 
 - Se accede al proyecto que queramos e inicializamos Nightwatch: `npm init nightwatch`
 - Opciones a seleccionar:
   - "El directorio actual no es un nodo y ya existen ficheros" `>Yes`
