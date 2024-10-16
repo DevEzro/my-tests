@@ -27,7 +27,7 @@
 > [!NOTE]
 Los códigos copiarlos y pegarlos
 
-### EJECUCIÓN
+### ▶ EJECUCIÓN
 - `python3 productor.py`
 - `python3 consumidor.py`
 
@@ -59,7 +59,7 @@ Para evitar errores, descomprimir kafka en `C:\`
 > [!NOTE]
 Los códigos copiarlos y pegarlos
 
-### EJECUCIÓN
+### ▶ EJECUCIÓN
 - `python3 productor.py`
 - `python3 consumidor.py`
 
