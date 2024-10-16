@@ -1,4 +1,4 @@
-# SETUP
+# SET UP
 - Python3 y pip: `apt install python3` / `apt install python3-pip`
 - Entorno virtual con Python: `python3 -m venv mi-entorno`
 - Activar el entorno (Linux): `source <nombre_entorno/bin/activate>`
