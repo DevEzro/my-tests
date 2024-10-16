@@ -10,6 +10,12 @@
 ### 🤵 JENKINS
 - Pipeline de ejemplo en formato Jenkinsfile para realizar tareas de CI/CD con Jenkins
 
+## 📤📥 MQTT
+### 🗨 APACHE KAKFA
+- Ejemplo de comunicación entre equipos con un producer y un consumer en Python
+
+### 🐰 RABBITMQ
+- Ejemplo de comunicación entre equipos con un recieve y un send en Pyhthon
 
 ## ✅ UNIT TESTS
 ### 🐍 PYTEST
