@@ -7,3 +7,5 @@
 # EJECUCCIÓN
 - `python recieve.py`
 - `python send.py`
+
+![Ejemplo de uso](https://github.com/user-attachments/assets/2a139d3b-b273-440e-b7a2-7c16ff6be56b)
