@@ -4,8 +4,8 @@
 - Activar el entorno (Linux): `source <nombre_entorno/bin/activate>`
 - Chrome y chromedriver (deben tener la misma versión): Chrome lo descargamos de su página web / `pip install chromedriver-py`
 - Selenium: `pip install selenium`
-> [!WARNING]
-> Puede dar error al instalar chromedriver-py o selenium. adjuntar al comando el parámetro `--break-system-package`
+> [!TIP]
+> Puede dar error al instalar chromedriver-py o selenium. Adjuntar al comando el parámetro `--break-system-package`
 
 > Nota: podemos ver los paquetes instalados con pip usando el comando `pip list`. En este ejemplo, con este comando se muestran los paquetes chromedriver-py y selenium instalados:
 `pip list | grep -E "selenium|chromedriver"`
