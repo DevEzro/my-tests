@@ -8,4 +8,4 @@
 - `python recieve.py`
 - `python send.py`
 
-![Ejemplo de uso](https://github.com/user-attachments/assets/2caecc69-4b4e-4d09-9008-c6dcf375e827)
+![Ejemplo de uso](https://github.com/user-attachments/assets/1139f5c1-543f-4647-9447-fff403da5677)
