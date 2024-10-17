@@ -1,4 +1,4 @@
-# SET UP
+# ⚙ SET UP
 - `npx playwright install`
 - En la ruta del proyecto: `npm init playwright`
 - "Se necesitan instalar los siguientes paquetes (y)": `y`
@@ -29,7 +29,7 @@ Running 1 test using 1 worker
   1 passed (2.1s)
 ```
 
-# EJECUCCIÓN
+# ▶ EJECUCCIÓN
 - Ejecuta todas las pruebas dentro del directorio pruebas (siempre que estemos en él): `npx playwright test`
 - Ejecuta un fichero individualmente: `npx playwright test .\login.spec.js`
 - Para visualizar los pasos de playwright sobre el navegador, además de añadir tiempos de espera (>ver ejemplo login.spec.js): `npx playwright test login.spec.js --headed`

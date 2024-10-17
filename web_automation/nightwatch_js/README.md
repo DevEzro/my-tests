@@ -1,4 +1,4 @@
-# SET UP 
+# ⚙ SET UP 
 - Se accede al proyecto que queramos e inicializamos Nightwatch: `npm init nightwatch`
 - Opciones a seleccionar:
   - "El directorio actual no es un nodo y ya existen ficheros" `>Yes`
@@ -11,7 +11,7 @@
   - "Permitir colleccionar métricas anonimas (Y/n)" `n`
   - "Setup de tests para dispositivos móviles" `>No, saltar por ahora`
 
-# EJECUCCIÓN
+# ▶ EJECUCCIÓN
 `npx nightwatch <ruta/a/fichero.js>`
 
 # RECOMENDACIÓN

@@ -1,4 +1,4 @@
-# SET UP
+# ⚙ SET UP
 - Instalar Cypress: `npm install cypress`
 - Abrir Cypress: `npx cypress open` 
 - Saltar tutorial y seleccionar `E2E Testing y Continuar`

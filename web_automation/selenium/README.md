@@ -1,4 +1,4 @@
-# SET UP
+# ⚙ SET UP
 - Python3 y pip: `apt install python3` / `apt install python3-pip`
 - Entorno virtual con Python: `python3 -m venv mi-entorno`
 - Activar el entorno (Linux): `source <nombre_entorno/bin/activate>`
@@ -13,7 +13,7 @@
 ![image](https://github.com/user-attachments/assets/58d5dbe8-326b-4c7e-b579-15bb703dd37f)
 
 
-# EJECUCCIÓN
+# ▶ EJECUCCIÓN
 - `python3 <ruta/al/fichero/py>`
 
 ![image](https://github.com/user-attachments/assets/57305c6a-acf1-4e17-9322-f755ea11c9fc)
