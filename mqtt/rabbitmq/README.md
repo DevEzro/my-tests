@@ -4,7 +4,7 @@
 - Instalar [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.0.2/rabbitmq-server-4.0.2.exe) (o acceder a la [página oficial](https://www.rabbitmq.com/docs/install-windows))
 - Instalar en un entorno virtual pika: `pip install pika`
 
-##  LINUX
+## 🐧 LINUX
 - Descargar el paquete .deb de la [página](https://www.rabbitmq.com/docs/install-debian): `sudo dpkg -i rabbitmq-server_4.0.2-1_all.deb`
 - O bien instalar las dependencias junto con el paquete: 
 ```
