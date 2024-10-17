@@ -5,8 +5,7 @@
 - Instalar en un entorno virtual pika: `pip install pika`
 
 ## 🐧 LINUX
-- Descargar el paquete .deb de la [página](https://www.rabbitmq.com/docs/install-debian): `sudo dpkg -i rabbitmq-server_4.0.2-1_all.deb`
-- O bien instalar las dependencias junto con el paquete: 
+- Instalar las dependencias junto con el paquete: 
 ```
 # sync package metadata
 sudo apt-get update
@@ -22,6 +21,7 @@ sudo dpkg -i rabbitmq-server_4.0.2-1_all.deb
 
 rm rabbitmq-server_4.0.2-1_all.deb
 ```
+- Para más info visitar la página de [RabbitMQ](https://www.rabbitmq.com/docs/install-debian)
 - Arrancar el servicio: `systemctl start rabbitmq-server`
 
 # ▶ EJECUCCIÓN
