@@ -1,7 +1,15 @@
 import pika, sys, os
+from colorama import Fore
 
 def main():
-    
+    print("""
+______ _____ _____ _____ _____ _   _ _____ 
+| ___ \  ___/  __ \_   _|  ___| | | |  ___|
+| |_/ / |__ | /  \/ | | | |__ | | | | |__  
+|    /|  __|| |     | | |  __|| | | |  __| 
+| |\ \| |___| \__/\_| |_| |___\ \_/ / |___ 
+\_| \_\____/ \____/\___/\____/ \___/\____/ 
+""")
     # Inicializa la conexión (bloqueante: hasta que no se completa se queda detenida)
     connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
     
@@ -15,14 +23,14 @@ def main():
     # por pantalla
     def callback(ch, method, properties, body):
         message = body.decode('utf-8') # Convierte el body de byte string a UTF-8
-        print(f" [+] Mensaje '{message}' recibido")
+        print(f"{Fore.GREEN}[+]{Fore.RESET} Mensaje recibido: '{message}' ")
     
     # Config. del consumidor para que escuche la cola, use la función anterior y 
     # confirme la recepción del mensaje
     channel.basic_consume(queue='hello', on_message_callback=callback, auto_ack=True)
     
     # Ciclo de espera del mensaje junto a un mensaje por pantalla
-    print(' [-] Esperando a los mensajes...')
+    print(f"{Fore.CYAN}[-]{Fore.RESET} Esperando a los mensajes...")
     channel.start_consuming()
 
 # Manejo de la ejecucción y cierre limpios
