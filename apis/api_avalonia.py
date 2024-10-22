@@ -20,20 +20,18 @@ def proyecto_avalonia(proyecto_data: ProyectoAvalonia):
     ruta = proyecto_data.ruta
     so = proyecto_data.so
 
-    # Crea el proyecto con los datos pasados
     try:
-        os.chdir(ruta)
-        comando = ["dotnet", "new", "avalonia.app", "-n", nombre]
-        resultado = subprocess.run(comando, check=True, capture_output=True, text=True)
-        
-        ruta_instalador = os.path.join(ruta, nombre)
-
-        # Crea el winlogbeat si detecta el SO como windows
+        # Si el SO es Windows, crea el proyecto con las instrucciones adecuadas
         if so.lower() == "windows":
-                # Compila el proyecto para obtener el '.exe'
-                try:
-                    # Comando de publicación que incluye las dependencias para que se ejecute correctamente
-                    compilado = [
+            os.chdir(ruta)
+            comando = ["dotnet", "new", "avalonia.app", "-n", nombre]
+            resultado = subprocess.run(comando, check=True, capture_output=True, text=True)
+
+            ruta_instalador = os.path.join(ruta, nombre)
+            # Compila el proyecto para obtener el '.exe'
+            try:
+                # Comando de publicación que incluye las dependencias para que se ejecute correctamente
+                compilado = [
                         "dotnet", "publish", ruta_instalador, 
                         "--configuration", "Release", 
                         "--self-contained", 
@@ -41,29 +39,34 @@ def proyecto_avalonia(proyecto_data: ProyectoAvalonia):
                         "/p:PublishSingleFile=true", 
                         "/p:IncludeNativeLibrariesForSelfExtract=true", 
                         "/p:PublishTrimmed=false"
-                    ]
+                ]
                     
-                    resultado = subprocess.run(compilado, check=True, capture_output=True, text=True)
-                    print(f"Resultado de la publicación: {resultado.stdout}")
+                resultado = subprocess.run(compilado, check=True, capture_output=True, text=True)
+                print(f"Resultado de la publicación: {resultado.stdout}")
+                
+                # Ruta del ejecutable publicado
+                ruta_windows = os.path.join(ruta_instalador, "bin", "Release", "net8.0", "win-x64", "publish", f"{nombre}.exe")
+                print(f"Buscando ejecutable en: {ruta_windows}")
                     
-                    # Ruta del ejecutable publicado
-                    ruta_windows = os.path.join(ruta_instalador, "bin", "Release", "net8.0", "win-x64", "publish", f"{nombre}.exe")
-                    print(f"Buscando ejecutable en: {ruta_windows}")
-                    
-                    if os.path.isfile(ruta_windows):
-                        return FileResponse(
-                            path=ruta_windows,
-                            filename=f"{nombre}.exe",
-                            media_type='application/octet-stream'
-                        )
-                    # Errores y casos de uso
-                    else:
-                        raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo ejecutable publicado.")
+                if os.path.isfile(ruta_windows):
+                    return FileResponse(
+                        path=ruta_windows,
+                        filename=f"{nombre}.exe",
+                        media_type='application/octet-stream'
+                    )
+                # Errores y casos de uso
+                else:
+                    raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo ejecutable publicado.")
 
-                except subprocess.CalledProcessError as e:
-                    raise HTTPException(status_code=500, detail=f"Error al publicar el proyecto: {e.stderr}")
+            except subprocess.CalledProcessError as e:
+                raise HTTPException(status_code=500, detail=f"Error al publicar el proyecto: {e.stderr}")
 
         elif so.lower() == "linux":
+            os.chdir(ruta)
+            comando = ["sudo", "dotnet", "new", "avalonia.app", "-n", nombre]
+            resultado = subprocess.run(comando, check=True, capture_output=True, text=True)
+        
+            ruta_instalador = os.path.join(ruta, nombre)
             try:
                 # Comando de publicación que incluye las dependencias para que se ejecute correctamente
                 compilado = [
@@ -95,14 +98,12 @@ def proyecto_avalonia(proyecto_data: ProyectoAvalonia):
                 # Errores y casos de uso
                 else:
                     raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo ejecutable publicado.")
-
             except subprocess.CalledProcessError as e:
                 raise HTTPException(status_code=500, detail=f"Error al publicar el proyecto: {e.stderr}")
-
-
+            
         else:
             raise HTTPException(status_code=501, detail=f"Generación de instaladores no implementada para {so}")
-    
+        
     except subprocess.CalledProcessError as e:
         raise HTTPException(status_code=500, detail=f"Error al crear el proyecto: {e.stderr}")
     except FileNotFoundError as e:
