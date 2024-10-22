@@ -17,13 +17,13 @@ class Datos(BaseModel):
 def obtiene_datos():
     return {"message": "Hello World"}
 
-@app.post("/introducir-datos", 
+@app.post("/crear-datos", 
         description="""
         Los endpoint POST sirven para crear datos.
         \nPulsa en 'Try it out' e introduce en el payload un nombre y una edad
         \ny pulsa 'Execute' para ver el resultado
         """)
-def introduce_datos(data: Datos):
+def crea_datos(data: Datos):
     nombre=data.nombre
     edad=data.edad
     
@@ -34,7 +34,7 @@ def introduce_datos(data: Datos):
         Los endpoint DELETE eliminan datos.
         \nPulsa en 'Try it out' y 'Execute' para obtener el mensaje 'Datos eliminados'
         """)
-def eliminar_datos():
+def elimina_datos():
     return {"Datos ficticios eliminados"}
 
 @app.put("/actualizar-datos", 
@@ -43,7 +43,7 @@ def eliminar_datos():
         \nPulsa en 'Try it out' e introduce en el payload un nombre y una edad
         \ny pulsa 'Execute' para ver el resultado
         """)
-def actualizar_datos(data: Datos):
+def actualiza_datos(data: Datos):
     nombre=data.nombre
     edad=data.edad
     
