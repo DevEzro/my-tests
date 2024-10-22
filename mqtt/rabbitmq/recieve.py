@@ -2,7 +2,7 @@ import pika, sys, os
 from colorama import Fore
 
 def main():
-    print("""
+    print(r"""
 ______ _____ _____ _____ _____ _   _ _____ 
 | ___ \  ___/  __ \_   _|  ___| | | |  ___|
 | |_/ / |__ | /  \/ | | | |__ | | | | |__  
