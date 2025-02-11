@@ -7,7 +7,8 @@
 - La ruta para ejecutar los jobs del fichero yml usando GitHub Actions
 > root/.github/workflows/helloworld.yml
 
->[!TIP] Para verlo más desarrollado y con otro ejemplo: [CI-CD-SONARQUBE-TEST](https://github.com/DevEzro/CI-CD-SONARQUBE-TEST)
+>[!NOTE]
+Para verlo más desarrollado y con otro ejemplo: [CI-CD-SONARQUBE-TEST](https://github.com/DevEzro/CI-CD-SONARQUBE-TEST)
 
 ### 🤵 JENKINS
 - Pipeline de ejemplo en formato Jenkinsfile para realizar tareas de CI/CD con Jenkins
