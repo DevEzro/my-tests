@@ -1,0 +1,29 @@
+# Nombre del workflow
+name: Only Pytests & sonarqube
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  various_integrated_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v2
+
+      - name: Python config.
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Pytest
+        run: pip install pytest
+
+      - name: Run pytests
+        run: | 
+          echo $(pytest -s -v --disable-pytest-warnings unit_tests\pytest) > results.txt
+          cat results.txt
