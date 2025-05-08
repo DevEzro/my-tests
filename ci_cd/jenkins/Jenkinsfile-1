@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages{    
+        stage('📊 Análisis con SonarQube') {
+            steps {
+                sh '''
+                    curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
+                    unzip sonar-scanner.zip
+                    mv sonar-scanner-5.0.1.3006-linux sonar-scanner
+                    ./sonar-scanner/bin/sonar-scanner \
+                      -Dsonar.projectKey=VariosTests \
+                      -Dsonar.host.url=<YOUR_SONAR_HOST> \
+                      -Dsonar.token=<YOUR_SONAR_TOKEN> \
+                      -Dsonar.sources=python,src \
+                      -Dsonar.python.version=3 \
+                      -Dsonar.qualitygate.wait=true \
+                      -X
+                '''
+            }
+        }
+    }
+}
