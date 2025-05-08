@@ -4,7 +4,8 @@
 - Saltar tutorial y seleccionar `E2E Testing y Continuar`
 - Seleccionamos un navegador: `Chrome`, `Electron` o `Firefox`
 - Seleccionar `Create new spec`
-> [!NOTE]: Si seguimos los pasos nos crea un fichero de ejemplo
+> [!NOTE]
+Si seguimos los pasos nos crea un fichero de ejemplo
 
 - En el navegador accedemos al panel izdo. y pulsamos en Specs.
 - Vemos un directorio con el fichero que nos ha creado de ejemplo.
